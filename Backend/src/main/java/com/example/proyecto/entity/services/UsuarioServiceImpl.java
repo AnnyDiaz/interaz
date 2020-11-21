@@ -26,24 +26,32 @@ public class UsuarioServiceImpl implements IUsuarioService {
 	public List<usuario> getAll() {
 		return (List<usuario>) usuarioDao.findAll();
 	}
-	
-	
-	
-	
 	@Override
-	public void post(usuario usuario) {
-		usuarioDao.save(usuario);
+	public usuario post(usuario usuario) {
+	
+	
 		
+		System.out.print(usuario.getTipo_documento());
+		System.out.print(usuario.getgenero());
+		System.out.print(usuario.getrol());
+	
+		return	usuarioDao.save(usuario);
 		
 	}
 
 
 	@Override
-	public void put(usuario usuario, long id) {
+	public usuario put(usuario usuario, long id) {
 		usuarioDao.findById(id).ifPresent((x)->{
 			usuario.setId(id);
-			usuarioDao.save(usuario);
 		});
+		System.out.print(usuario.getTipo_documento());
+		System.out.print(usuario.getgenero());
+		System.out.print(usuario.getrol());
+	
+		return	usuarioDao.save(usuario);
+	
+		
 	}
 
 	@Override
@@ -51,5 +59,4 @@ public class UsuarioServiceImpl implements IUsuarioService {
 		usuarioDao.deleteById(id);
 		
 	}
-
 }

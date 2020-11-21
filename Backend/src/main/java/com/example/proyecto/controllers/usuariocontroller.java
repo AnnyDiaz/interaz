@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.proyecto.entity.models.usuario;
@@ -34,21 +35,23 @@ public class usuariocontroller {
 	}
 	
 	
-	
-	
-	@PostMapping("usuario")
-	public void add(usuario usuario) {
-		usuarioService.post(usuario);
-	}
+	 @PostMapping("/usuario")
+	    public usuario create(@RequestBody usuario usuario) {
+		 return usuarioService.post(usuario);
+				        
+	 }
+	 
 	
 	@PutMapping("/usuario/{id}")
-	public void update(usuario usuario, @PathVariable(value = "id") long id) {
-		usuarioService.put(usuario, id);
+	public usuario update (@PathVariable long id, @RequestBody usuario usuario) {
+		return usuarioService.put(usuario, id);
+		
+		
 	}
-	
+		
+
 	@DeleteMapping("/usuario/{id}")
 	public void delete(@PathVariable(value = "id") long id) {
 		usuarioService.delete(id);
 	}
-	
 }

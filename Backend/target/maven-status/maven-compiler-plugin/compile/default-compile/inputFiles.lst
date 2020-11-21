@@ -1,7 +1,21 @@
-C:\Trabajo\spring boot\proyecto\src\main\java\com\example\proyecto\entity\models\genero.java
-C:\Trabajo\spring boot\proyecto\src\main\java\com\example\proyecto\entity\models\usuario.java
-C:\Trabajo\spring boot\proyecto\src\main\java\com\example\proyecto\entity\models\documento.java
-C:\Trabajo\spring boot\proyecto\src\main\java\com\example\proyecto\entity\dao\IUsuarioDao.java
-C:\Trabajo\spring boot\proyecto\src\main\java\com\example\proyecto\entity\models\rol.java
-C:\Trabajo\spring boot\proyecto\src\main\java\com\example\proyecto\entity\services\IUsuarioService.java
-C:\Trabajo\spring boot\proyecto\src\main\java\com\example\proyecto\ProyectoApplication.java
+C:\Users\anayu\Documents\interaz\Backend\src\main\java\com\example\proyecto\entity\models\documento.java
+C:\Users\anayu\Documents\interaz\Backend\src\main\java\com\example\proyecto\controllers\tipo_documentocontroller.java
+C:\Users\anayu\Documents\interaz\Backend\src\main\java\com\example\proyecto\ProyectoApplication.java
+C:\Users\anayu\Documents\interaz\Backend\src\main\java\com\example\proyecto\entity\services\GeneroServiceImpl.java
+C:\Users\anayu\Documents\interaz\Backend\src\main\java\com\example\proyecto\entity\dao\ITipo_DocumentoDao.java
+C:\Users\anayu\Documents\interaz\Backend\src\main\java\com\example\proyecto\entity\services\IRolService.java
+C:\Users\anayu\Documents\interaz\Backend\src\main\java\com\example\proyecto\controllers\generocontroller.java
+C:\Users\anayu\Documents\interaz\Backend\src\main\java\com\example\proyecto\entity\services\RolServiceImpl.java
+C:\Users\anayu\Documents\interaz\Backend\src\main\java\com\example\proyecto\controllers\rolcontroller.java
+C:\Users\anayu\Documents\interaz\Backend\src\main\java\com\example\proyecto\entity\services\Tipo_DocumentoServiceImpl.java
+C:\Users\anayu\Documents\interaz\Backend\src\main\java\com\example\proyecto\entity\models\usuario.java
+C:\Users\anayu\Documents\interaz\Backend\src\main\java\com\example\proyecto\entity\dao\IUsuarioDao.java
+C:\Users\anayu\Documents\interaz\Backend\src\main\java\com\example\proyecto\entity\services\ITipo_DocumentoService.java
+C:\Users\anayu\Documents\interaz\Backend\src\main\java\com\example\proyecto\entity\dao\IRolDao.java
+C:\Users\anayu\Documents\interaz\Backend\src\main\java\com\example\proyecto\entity\services\UsuarioServiceImpl.java
+C:\Users\anayu\Documents\interaz\Backend\src\main\java\com\example\proyecto\entity\dao\IGeneroDao.java
+C:\Users\anayu\Documents\interaz\Backend\src\main\java\com\example\proyecto\controllers\usuariocontroller.java
+C:\Users\anayu\Documents\interaz\Backend\src\main\java\com\example\proyecto\entity\services\IGeneroService.java
+C:\Users\anayu\Documents\interaz\Backend\src\main\java\com\example\proyecto\entity\services\IUsuarioService.java
+C:\Users\anayu\Documents\interaz\Backend\src\main\java\com\example\proyecto\entity\models\genero.java
+C:\Users\anayu\Documents\interaz\Backend\src\main\java\com\example\proyecto\entity\models\rol.java
