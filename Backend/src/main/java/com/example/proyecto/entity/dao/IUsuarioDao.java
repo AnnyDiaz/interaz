@@ -6,6 +6,4 @@ import com.example.proyecto.entity.models.usuario;
 
 public interface IUsuarioDao extends CrudRepository<usuario, Long>  {
 
-
-
 }
