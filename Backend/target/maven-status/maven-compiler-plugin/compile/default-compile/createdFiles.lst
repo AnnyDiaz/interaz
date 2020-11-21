@@ -1,0 +1,7 @@
+com\example\proyecto\entity\models\genero.class
+com\example\proyecto\entity\models\rol.class
+com\example\proyecto\ProyectoApplication.class
+com\example\proyecto\entity\services\IUsuarioService.class
+com\example\proyecto\entity\dao\IUsuarioDao.class
+com\example\proyecto\entity\models\documento.class
+com\example\proyecto\entity\models\usuario.class
