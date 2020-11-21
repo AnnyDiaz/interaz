@@ -57,10 +57,10 @@ public class usuario implements Serializable {
 	
 	
 	
-	public genero getgenero() {
+	public genero getGenero() {
 		return genero;
 	}
-	public void setgenero(genero genero) {
+	public void setGenero(genero genero) {
 		this.genero = genero;
 	}
 	public documento getTipo_documento() {
@@ -81,10 +81,10 @@ public class usuario implements Serializable {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public rol getrol() {
+	public rol getRol() {
 		return rol;
 	}
-	public void setrol(rol rol) {
+	public void setRol(rol rol) {
 		this.rol = rol;
 	}
 	public String getTelefono() {

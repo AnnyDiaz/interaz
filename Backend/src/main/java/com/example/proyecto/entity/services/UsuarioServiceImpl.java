@@ -26,15 +26,14 @@ public class UsuarioServiceImpl implements IUsuarioService {
 	public List<usuario> getAll() {
 		return (List<usuario>) usuarioDao.findAll();
 	}
+	
+	
+	
+	
 	@Override
 	public void post(usuario usuario) {
+		usuarioDao.save(usuario);
 		
-		
-		System.out.print(usuario.getTipo_documento());
-		System.out.print(usuario.getgenero());
-		System.out.print(usuario.getrol());
-	
-		//usuarioDao.save(usuario);
 		
 	}
 
