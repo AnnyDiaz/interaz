@@ -1,0 +1,155 @@
+form {
+  border: 3px 
+  solid #f1f1f1;
+  width: 50%;
+
+}
+
+input[type=text] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+
+}
+input[type=password] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+  float:all;
+  padding-top: 8px;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 8px;
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+ .cancelbtn {
+    width: 100%;
+   
+  }
+
+  *{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body{ 
+  background: #aaa!important; 
+}
+
+nav>a, nav li>a{
+  color: #fff!important;
+}
+
+.modal-header{
+  text-align: center!important;
+}
+
+footer p{
+  font-size: 0.7em;
+}
+
+button text-white{
+background-color: blue;
+}
+.fa fa-user{
+ background-color: blue;
+}
+}
+.con{
+  border: 1px 
+  solid #f1f1f1;
+  width: 700px;
+  padding: 10px 18px;
+  background-color: azure;
+  float:all;
+  padding-top: 8px;
+}
+input.cold{
+ width: 90%;
+ padding: 12px 20px;
+ margin: 20px 0;
+}
+input.cal{
+  width: 80%;
+  padding: 13px 22px;
+  margin: 20px 0;
+
+}
+
+div.mencontainer {
+  text-align: left;
+  margin: 24px 0 12px 0;
+  background-color:blue;
+}
+form.jps{
+ border: 1px 
+  solid grey;
+  width: 550px;
+  background-color: azure; 
+}
+input.cls{
+ padding: 1px 2px;
+ margin: 2px 0;
+ width: 60%;
+}
+input.dcs{
+  width: 72%;
+
+}
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+

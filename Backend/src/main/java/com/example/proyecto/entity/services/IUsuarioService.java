@@ -11,8 +11,8 @@ public interface IUsuarioService {
 	public usuario post(usuario usuario);
 	public usuario put(usuario usuario, long id);
 	public void delete(long id);
-	public usuario findUsuarioByUserPpassword(usuario usuario);
-	public usuario findUsuarioByPassword(usuario usuario, long id );
+	
+
 	
 
 }
